@@ -1,5 +1,10 @@
  Nigerian Phone Number Validator (JS)
 [![HitCount](http://hits.dwyl.io/djunehor/js_validate_nigerian_phone.svg)](http://hits.dwyl.io/djunehor/js_validate_nigerian_phone)
+[![CircleCI](https://circleci.com/gh/djunehor/js_validate_nigerian_phone.svg?style=svg)](https://circleci.com/gh/djunehor/js_validate_nigerian_phone)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/djunehor/js_validate_nigerian_phone)
+[![GitHub license](https://img.shields.io/github/license/djunehor/js_validate_nigerian_phone.svg)](https://github.com/djunehor/js_validate_nigerian_phone/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/djunehor/js_validate_nigerian_phone.svg)](https://GitHub.com/djunehor/js_validate_nigerian_phone/issues/)
+[![Only 32 Kb](https://badge-size.herokuapp.com/djunehor/js_validate_nigerian_phone/master/build/index.js)](https://github.com/djunehor/js_validate_nigerian_phone/blob/master/build/index.js)
 
 #### Issues and pull requests welcome.
 
