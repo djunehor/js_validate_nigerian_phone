@@ -1,9 +1,9 @@
- Nigerian Phone Number Validator (PHP)
-[![HitCount](http://hits.dwyl.io/djunehor/php_validate_nigerian_phone.svg)](http://hits.dwyl.io/djunehor/php_validate_nigerian_phone) [![CircleCI](https://circleci.com/gh/djunehor/php_validate_nigerian_phone.svg?style=svg)](https://circleci.com/gh/djunehor/php_validate_nigerian_phone)
+ Nigerian Phone Number Validator (JS)
+[![HitCount](http://hits.dwyl.io/djunehor/js_validate_nigerian_phone.svg)](http://hits.dwyl.io/djunehor/js_validate_nigerian_phone)
 
 #### Issues and pull requests welcome.
 
-A Python module to validate and format a Nigerian phone number as well as deduce the network provider or area code.
+A JS package to validate and format a Nigerian phone number as well as deduce the network provider or area code.
 
 ### Table of Contents
 * [Installation](#installation)
@@ -13,32 +13,32 @@ A Python module to validate and format a Nigerian phone number as well as deduce
 * [Run Tests](#tests)
 
 ## Installation
-You will need [PHP 7.x](https://www.php.net/) and [composer](https://getcomposer.org/download/).
+You will need [yarn](https://yarnpkg.com/lang/en/docs/install/) and [npm](https://www.npmjs.com/get-npm).
 
-Install using composer: `composer require djunehor/validate_nigerian_phone`
+Install using npm: `npm install validate_nigerian_phone`
+Install using yarn: `yarn add validate_nigerian_phone`
 
 ## Usage
 
-```php
-use \Djunehor\Validator\NigerianPhone;
-
-$phone = new NigerianPhone('+2348135087966');
+```js
+const NigerianPhone = require('validate_nigerian_phone');
+const phone = new NigerianPhone('+2348135087966');
 
 // Check if is valid
-$phone->isValid(); // true
+phone.isValid(); // true
 
 // Get formatted
-$phone->formatted(); // 08135087966
+phone.formatted(); // 08135087966
 
 // Get Network
-$phone->getNetwork(); // mtn
+phone.getNetwork(); // mtn
 
 // Check if is mtn
-$phone->isMtn(); // True
+phone.isMtn(); // True
 
 
 // Get network from phone number prefix e.g
-$phone->getNetworkByPrefix('0703'); // mtn
+phone.getNetworkByPrefix('0703'); // mtn
 
 ```
 
@@ -63,7 +63,7 @@ $phone->getNetworkByPrefix('0703'); // mtn
 * getAreaCodeByName
 
 ### Tests
-* Run `phpunit tests/NigerianPhoneTest.php`
+
 
 ## Contribute
 Check out the issues on GitHub and/or make a pull request to contribute!

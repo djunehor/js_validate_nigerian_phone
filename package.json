@@ -1,8 +1,8 @@
 {
-  "name": "djunehor/validate_nigerian_phone",
+  "name": "validate_nigerian_phone",
   "version": "1.0.0",
   "description": "A JS package to validate and format a Nigerian phone number as well as deduce the network provider or area code.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/djunehor/js_validate_nigerian_phone/issues"
   },
-  "homepage": "https://github.com/djunehor/js_validate_nigerian_phone#readme"
+  "homepage": "https://github.com/djunehor/js_validate_nigerian_phone#readme",
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  }
 }
