@@ -1,6 +1,6 @@
 {
   "name": "validate_nigerian_phone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JS package to validate and format a Nigerian phone number as well as deduce the network provider or area code.",
   "main": "build/index.js",
   "scripts": {
