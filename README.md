@@ -7,7 +7,7 @@
 [![Only 32 Kb](https://badge-size.herokuapp.com/djunehor/js_validate_nigerian_phone/master/build/index.js)](https://github.com/djunehor/js_validate_nigerian_phone/blob/master/build/index.js)
 
 #### Issues and pull requests welcome.
-
+## NOTE: The network resolution function can't be accurate because Nigeria implemented [Mobile Number Portability](https://en.wikipedia.org/wiki/Mobile_number_portability) in 2013, so the number prefix cannot be reliably used to determine operator anymore.
 A JS package to validate and format a Nigerian phone number as well as deduce the network provider or area code.
 
 ### Table of Contents
